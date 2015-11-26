@@ -1,0 +1,226 @@
+@media(max-width:400px){
+    .navbar-brand { padding: 0px;}
+    .container h1{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.8em;
+    padding-top: 38%;
+    }
+    .hero{height: 520px;}
+    .fondo-celeste {
+            height: 220px;
+    padding-top: 5%;
+    padding-bottom: 11%;
+    margin-top: -57%;
+    }
+    .prueba{font-size: 20px;}
+
+    .btn-primary{
+        width: 90%;
+        font-size: 1.5em;
+        margin-top: 3%;
+    }
+    .logo {
+        position: fixed;
+        top: 4%;
+        width: 50%;
+    }
+    .nuestro {
+    padding-top: 25%;
+    }
+    .step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #50BDEA;
+    position: absolute;
+    right: 74%;
+    z-index: 15;
+    }
+}
+
+
+@media screen and (min-width:401px) and (max-width:480px){
+    .navbar-brand { padding: 0px;}
+    .container h1{
+            padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.8em;
+    padding-top: 38%;
+    }
+    .nuestro {
+    padding-top: 15%;
+    }
+
+    .hero{height: 600px;}
+    .fondo-celeste {
+                   height: 210px;
+    padding-top: 5%;
+    padding-bottom: 11%;
+    margin-top: -45%;
+    }
+    .prueba{font-size: 20px;}
+
+    .btn-primary{
+        width: 90%;
+        font-size: 1.5em;
+        margin-top: 3%;
+    }
+    .logo {
+        position: fixed;
+        top: 5%;
+        width: 45%;
+    }
+    .step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #50BDEA;
+    position: absolute;
+    right: 74%;
+    z-index: 15;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:600px){
+    .navbar-brand { padding: 0px;}
+    .container h1{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2em;
+    padding-top: 25%;
+    }
+    .hero{height: 615px;}
+    .nuestro {
+    padding-top: 15%;
+    }
+
+    .fondo-celeste {
+        height: 280px;
+    padding-top: 8%;
+    padding-bottom: 11%;
+    margin-top: -48%;
+        }
+    .prueba{font-size: 20px;}
+
+    .btn-primary{
+        width: 45%;
+    font-size: 1.8em;
+    margin-top: 3%;
+    margin-left: 26%;
+    }
+    .logo {
+        position: fixed;
+        top: 5%;
+        width: 35%;
+    }
+    .step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #50BDEA;
+    position: absolute;
+    right: 74%;
+    z-index: 15;
+    }
+}
+
+
+
+@media screen and (min-width:601px) and (max-width:760px){
+    .navbar-brand { padding: 0px;}
+    .container h1{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2.5em;
+    padding-top: 30%;
+    }
+    .nuestro {
+    padding-top: 25%;
+    }
+    .hero{height: 650px;}
+    .prueba{font-size: 20px;}
+    .fondo-celeste {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    margin-top: -20.2%;
+    }
+    .btn-primary{
+        width: 45%;
+    font-size: 1.8em;
+    margin-top: 3%;
+    margin-left: 26%;
+    }
+    .logo {
+        position: fixed;
+        top: 3%;
+        width: 25%;
+    }
+    .step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #50BDEA;
+    position: absolute;
+    right: 74%;
+    z-index: 15;
+    }
+}
+
+
+
+@media screen and (min-width:761px) and (max-width:950px){
+    .navbar-brand { padding: 0px;}
+    .container h1{
+    padding-left: 0%;
+    padding-right: 5%;
+    font-size: 2.5em;
+    padding-top: 25%;
+    }
+    .nuestro {
+    padding-top: 15%;
+    }
+    .hero{height: 635px;}
+    .prueba{font-size: 20px;}
+    .fondo-celeste {
+    background-color: rgb(82, 141, 210);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    margin-top: -15.2%;
+    }
+    .btn-primary{
+        width: 55%;
+    font-size: 1.8em;
+    margin-top: 3%;
+    margin-left: 26%;
+    }
+    .logo {
+        position: fixed;
+        top: 5%;
+        width: 25%;
+    }
+    .step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #50BDEA;
+    position: absolute;
+    right: 74%;
+    z-index: 15;
+    }
+}
+
+@media(max-width:1300px){
+    
+    .fondo-celeste {
+            background-color: rgb(82, 141, 210);
+ 
+    }
+
+}

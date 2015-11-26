@@ -1,0 +1,342 @@
+*{font-family: 'Lato', sans-serif;}
+p{
+    font-size: 17px;
+    line-height: 1.5;
+}
+/*navegador*/
+.navbar-default {
+	background-color: transparent;
+	border-bottom: transparent;
+}
+
+.navbar-toggle {
+    margin-top: 21px!important;
+    }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    padding-top: 3.3%;
+    padding-bottom: 2%;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #528DD2;
+    color: white;
+    border-radius: 5px;
+   -webkit-transition: all 1s ease-out;
+-moz-transition: all 1s ease-out;
+-ms-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+transition: all 1s ease-out;   
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 1.5em;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 25px;
+}
+.mi{
+	color:#528DD2;
+	font-weight: 600;
+}
+.logo{
+    width: 62%;
+	color: white;
+	font-weight: 300;
+}
+
+.logo-2 {
+    width: 55%;
+    color: white;
+    font-weight: 300;
+}
+.hero{
+    background-image: url(../image/large.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec-2{
+    background-image: url(../image/sec-2.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    background-color:  #46505B;
+    opacity: 0.7;
+    z-index: 1;
+    height: 100%;
+    position: relative;
+}
+
+#menu.active {
+	background-color: #46505B;
+  webkit-transform: translateY(0);
+-moz-transform: translateY(0);
+-ms-transform: translateY(0);
+-o-transform: translateY(0);
+transform: translateY(0);
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+-webkit-transform: translateZ(0);
+}
+
+/*texto de la imagen*/
+.container h1{
+	position: absolute;
+    z-index: 5;
+    padding-top: 14%;
+    padding-left: 12%;
+    padding-right: 17%;
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+}
+.pull-right {
+	color: white;
+	z-index: 5;
+	font-weight: 400;
+}
+
+.fondo-celeste {
+    background-color:rgba(82,141,210,0.8);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2.4%;
+    margin-top: -11.2%;
+    color: white;
+}
+.text-pl {
+        padding-left: 20%;
+}
+.text-action{
+	color: white;
+	font-weight: 300;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border: 2px solid white;
+     width: 200px;
+    font-size: 27px;
+    margin-top: 6%;
+    margin-left: 7%;
+}
+
+/*nuestro servicios*/
+.pt-8 {
+    padding-top: 8%;   
+}
+
+.pt-5 {
+    padding-top: 5%; 
+    }
+.mg-none {
+    margin-top: 0;
+}
+.nuestro{
+    color: #68ADFF;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+}
+.text-icon {
+    text-align: center;
+    color: rgb(105, 135, 164);
+    font-size: 1.8em;
+}
+
+
+.icon {
+    font-size: 3em;
+    text-align: center;
+    height: 147px;
+    width: 150px;
+    line-height: 143px;
+    background: white;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    display: block;
+    color: #5EA7FF;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto 35px;
+    margin-top: 50px;
+    box-shadow: -1px 3px 7px 0px rgba(0, 0, 0, 0.11);
+}
+
+
+
+
+
+/*footer*/
+footer .fondo-celeste{
+    margin-top: 7.6%;
+}
+
+
+/*desarrollo*/
+.separador{
+    position: relative;
+    top: 97px;
+    left: 46%;
+    z-index: 20;
+}
+.step-title {
+    padding-top: 15%;
+    color: #68ADFF;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.title-h4 {
+    color: #68ADFF;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.step-icon i {
+    font-size: 2.3em;
+    text-align: center;
+    position: relative;
+    top: 22%;
+    left: 24%;
+    color: white;
+}
+.step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #50BDEA;
+    position: absolute;
+    right: -4%;
+    top: 100px;
+    z-index: 15;
+}
+.b {
+    top: 259px;
+}
+
+.c {
+    top: 417px;
+}
+
+
+.banner{
+    background-image: url(../image/banner.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.margin-0{
+    margin: 0;
+}
+.pd-box{
+    padding: 8% 8% 1%;
+}
+
+.separador-2{
+    position: relative;
+    top: -76px;
+    left: 46%;
+    z-index: 20;
+}
+
+.intro{
+    background-image: url(../image/intro.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.separador-2{
+    position: relative;
+    top: -76px;
+    left: 46%;
+    z-index: 20;
+}
+footer{
+    color: white;
+}
+
+.fondo-footer{
+   background-color: rgba(82,141,210,0.8);
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 11.2%; 
+}
+.bg-blue{
+    background-color: #2A3541;
+    color: white;
+    padding: 1.5%;
+}
+.icons{
+    font-size: 2.5em;
+}
+.redes:hover{
+ color: white;
+ -webkit-transition: all 1s ease-out;
+-moz-transition: all 1s ease-out;
+-ms-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+transition: all 1s ease-out;  
+}
+.icon-facebook{
+    padding-right: 5%;
+}
+
+.text-left{
+    padding-top: 1.5%;
+}
+footer .btn-primary{
+width: 230px; 
+}
+
+footer h4{
+    font-size: 1.5em;
+}
+
+.description{
+    padding: 5%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.creditos{
+    padding-top: 2%;
+}
+
+@media screen and (min-width:501px) and (max-width:1000px){
+
+        .navbar-default .navbar-nav>li>a {
+            color: white;
+            font-size: 1em;
+        }
+
+}
+
+
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.animated .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
