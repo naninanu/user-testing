@@ -155,9 +155,10 @@
     margin-left: 26%;
     }
     .logo {
-        position: fixed;
-        top: 3%;
-        width: 25%;
+         position: fixed;
+    top: 4%;
+    width: 30%;
+
     }
     .step-icon {
     width: 60px;
@@ -215,7 +216,15 @@
     z-index: 15;
     }
 }
+@media(min-width:950px){
+    .logo {
+            width: 74%;
+    color: white;
+    font-weight: 300;
+    padding-top: 12%;
 
+    }
+}
 @media(max-width:1300px){
     
     .fondo-celeste {
