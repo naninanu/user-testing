@@ -216,12 +216,12 @@
     z-index: 15;
     }
 }
-@media(min-width:950px){
+@media(min-width:951px){
     .logo {
-            width: 74%;
+    width: 66%;
     color: white;
     font-weight: 300;
-    padding-top: 12%;
+    padding-top: 10%;
 
     }
 }

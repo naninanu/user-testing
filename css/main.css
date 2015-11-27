@@ -1,9 +1,14 @@
     *{font-family: 'Lato', sans-serif;}
     p{
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.5;
     }
     /*navegador*/
+    .container-fluid {
+        padding-right: 40px!important;
+        padding-left: 40px!important;
+
+    }
     .navbar-default {
     	background-color: transparent;
     	border-bottom: transparent;
@@ -93,7 +98,7 @@
     .container h1{
     	position: absolute;
         z-index: 5;
-        padding-top: 14%;
+        padding-top: 18%;
         padding-left: 12%;
         padding-right: 17%;
         color: white;
@@ -195,7 +200,7 @@
         z-index: 20;
     }
     .step-title {
-        padding-top: 15%;
+        padding-top: 5%;
         color: #68ADFF;
         font-size: 1.5em;
         font-weight: 300;
@@ -232,7 +237,9 @@
     .c {
         top: 417px;
     }
-
+    .flecha{
+        padding-left:245px;
+    }
 
     .banner{
         background-image: url(../image/banner.jpg);
@@ -247,7 +254,7 @@
         margin: 0;
     }
     .pd-box{
-        padding: 8% 8% 1%;
+        padding:1% 8% 1.09%;
     }
 
     .separador-2{
@@ -265,13 +272,6 @@
         background-repeat: no-repeat;
     }
 
-
-    .separador-2{
-        position: relative;
-        top: -76px;
-        left: 46%;
-        z-index: 20;
-    }
     footer{
         color: white;
     }
