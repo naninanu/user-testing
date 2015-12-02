@@ -231,5 +231,9 @@
             background-color: rgb(82, 141, 210);
  
     }
+    .pl {
+        padding-left: 25%;
+    }
 
 }
+
