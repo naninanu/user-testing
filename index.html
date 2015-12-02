@@ -28,7 +28,7 @@
 		
 	<!-- Facebook Pixel Code -->
 		<script>
-		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		!function(f,b++++,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
@@ -36,7 +36,12 @@
 
 		fbq('init', '802161149906398');
 		fbq('track', "PageView");
-		fbq('track', 'Lead');
+		
+		$(document).ready(function() {
+			$("#prueba-gratis").click(function() {
+				fbq('track', 'Lead');
+			});
+		});
 		</script>
 		<noscript><img height="1" width="1" style="display:none"
 		src="https://www.facebook.com/tr?id=802161149906398&ev=PageView&noscript=1"
@@ -98,7 +103,7 @@
 	  						<h4 class="text-action">Obtén un video gratis de 5 minutos</h4>         
 	  					</div>
 	  					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-	  						<a  href="contact.html" target="_blank" class="btn btn-primary">Pruebalo gratis</a>
+	  						<a id="prueba-gratis" href="contact.html" target="_blank" class="btn btn-primary">Pruebalo gratis</a>
 	  					</div>
 	  				</div>
 	  			</div>    
